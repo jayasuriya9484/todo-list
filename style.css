@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color: #b9dfb4;
+}
+
+.h1 {
+    text-align: center;
+    background-color: rgb(10 10 10);
+    color: aqua;
+    width: 50%;
+    margin-left: 350px;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.input-section {
+    display: flex;
+    padding: 2%;
+}
+.input-section input{
+    flex: 1;
+    padding: 15px;
+
+}
+.input-section button{
+    background-color:  #b58ec8;;;
+    border: unset;
+    color: #fff;
+
+}
+
+.list-section ul {
+    padding: 0;
+    margin:0;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.list-section ul li {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-section ul li .done {
+    text-decoration: line-through;
+}
+
+.list-section ul li .close {
+    background-color: rgb(153, 158, 171);
+    color: black;
+    padding: 10px;
+}
